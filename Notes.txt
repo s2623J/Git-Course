@@ -1,0 +1,21 @@
+
+    Notes:
+    ------
+
+    revert: 
+        Will revert only one specific commit. Will NOT affect other commits
+
+    reset:
+        Capable of PERMANENTLY deleting all work. Three double-dashed flags:
+            1.  --mixed     Removes any commits occuring AFTER a specified commit
+            2.  --soft      Just like --mixed, except the changed files remain in 
+                            the staging area as "modified". To use these files in 
+                            their modified state, they must be unstaged and then 
+                            execute "git checkout ."
+            3.  --hard      Removes any commits occuring AFTER a specified commit. 
+                            Automatically updates files (no need to execute 
+                            "git checkout .")
+
+        **Note: These changes affect where the HEAD is - the files will still 
+        appear as before, but with a "changed" status. To finish the reset, follow 
+        up by typing "git checkout ."
