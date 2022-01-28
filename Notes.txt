@@ -19,3 +19,7 @@
         **Note: These changes affect where the HEAD is - the files will still 
         appear as before, but with a "changed" status. To finish the reset, follow 
         up by typing "git checkout ."
+
+    .gitignore:
+        If attempting to ignore a file that has already been commited, you must 
+        follow the .gitignore file entry with a " git reset ." and "git checkout ."
