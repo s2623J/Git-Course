@@ -23,3 +23,6 @@
     .gitignore:
         If attempting to ignore a file that has already been commited, you must 
         follow the .gitignore file entry with a " git reset ." and "git checkout ."
+
+    Pushing to GitHub::
+        1.  Enter "git remote add origin https://github.com/s26233/Git-Course.git"
