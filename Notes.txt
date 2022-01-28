@@ -25,4 +25,15 @@
         follow the .gitignore file entry with a " git reset ." and "git checkout ."
 
     Pushing to GitHub::
-        1.  Enter "git remote add origin https://github.com/s26233/Git-Course.git"
+        1.  Enter "git remote add origin https://github.com/s2623J/Git-Course.git"
+        2.  Then, enter "git push origin main"
+
+    Pulling from GitHub:
+        1.  Enter "git pull origin main"
+        2.  Verify pulled changes via "git log --oneline"
+
+    Branches:
+        1.  Map GitHub & local branches together via "git branch --set-upstream-to=origin/main main"
+        2.  Future pulls should only require entering "git pull"
+        
+
