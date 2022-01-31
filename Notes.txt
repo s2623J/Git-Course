@@ -25,4 +25,41 @@
         follow the .gitignore file entry with a " git reset ." and "git checkout ."
 
     Pushing to GitHub::
-        1.  Enter "git remote add origin https://github.com/s26233/Git-Course.git"
+        1.  Enter "git remote add origin https://github.com/s2623J/Git-Course.git"
+        2.  Then, enter "git push origin main"
+
+    Pulling from GitHub:
+        1.  Enter "git pull origin main"
+        2.  Verify pulled changes via "git log --oneline"
+
+    Branches:
+        1.  Map GitHub & local branches together via "git branch --set-upstream-to=origin/main main"
+        2.  Future pulls should only require entering "git pull"
+        3.  Delete a remote branch from local terminal with "git push origin --delete feature-2"
+        4.  Delete branches locally with "git branch -D feature-1"
+
+    Commits:
+        1.  Adding an "-am" switch will add ALL files to the branch, and commit them at 
+            the same time (ie. "git commit -am "Modified a new style"")
+    
+    Merging:
+        1.  Merging a dev branch from a main branch prompt is done with "git merge dev"
+        2.  Fast Forward Merge - A merge of a branch into an unchanged main without any conflicts
+        3.  Three Way Merge - Changes with main and branch are combined without any conflicts
+        4.  Merge Conflict:
+                Strip out Git Remarks. Make final edit. Execute "git add ." followed by "git commit" 
+                (no remark is necessary)
+        5.  Abort:
+                If git adds remorks to indicate a merge conflict, it can be aborted (with remarks 
+                removed automatically) by executing "git merge --abort"
+                removed automatically) by executing "git merge --abort"
+
+    Rebasing:
+        1.  Base Commit - Location on the Main branch where a feature branch was branched from 
+        2.  Definition - A rebase is to move the feature branch to a new (subsequent) base commit 
+            on the Main branch. This would serve the purpose of bringing the changes made to the 
+            Main branch into the feature branch so as to simplify a following attempt to merge 
+            the feature branch into the Main branch.
+        3.  To rebase from a newer base commit on the main (in order to get your feature branch 
+            caught up), enter this from the feature branch terminal: "git rebase main"
+        
