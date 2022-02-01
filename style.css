@@ -5,4 +5,14 @@ body {
 
 h1 {
     font-size: 30px;
+    color: green;
+}
+
+p {
+    color: blues;
+}
+
+form {
+    margin: 20px;
+    padding: 30px;
 }
