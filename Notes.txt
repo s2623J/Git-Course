@@ -60,8 +60,11 @@
             on the Main branch. This would serve the purpose of bringing the changes made to the 
             Main branch into the feature branch so as to simplify a following attempt to merge 
             the feature branch into the Main branch.
+
+        ***********************************  Important  *********************************************
         3.  To rebase from a newer base commit on the main (in order to get your feature branch 
             caught up), enter this from the feature branch terminal: "git rebase main"
+        ***********************************  Important  *********************************************
         
     Fork:
         1.  Causes GitHub to copy displayed repo to the User's loged in Account
