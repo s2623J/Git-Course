@@ -63,3 +63,6 @@
         3.  To rebase from a newer base commit on the main (in order to get your feature branch 
             caught up), enter this from the feature branch terminal: "git rebase main"
         
+    Fork:
+        1.  Causes GitHub to copy displayed repo to the User's loged in Account
+        
