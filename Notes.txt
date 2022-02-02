@@ -69,3 +69,7 @@
     Fork:
         1.  Causes GitHub to copy displayed repo to the User's loged in Account
         
+    Collaboration:
+        1.  After granting and accepting a collaboration request, apply branch protection rules
+            so that the owner can maintain rights to oversee commits from others
+        2.  Asign peer reviewers to assist before merging colaboration work to main
